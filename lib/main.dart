@@ -1,21 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:music55/controller/myroute.dart';
 import 'package:music55/mainhome.dart';
 import 'package:music55/navigatorkey.dart';
 import 'package:music55/style/theme.dart';
-import 'package:music55/ui/player.dart';
 import 'package:music55/ui/search.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sliding_up_panel/sliding_up_panel.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
-import 'controller/musiccontroller.dart';
-import 'controller/panelcontroller.dart';
-import 'generated/assets.dart';
-import 'widget/myappbar.dart';
 import 'widget/mynavbar.dart';
 
 Future<void> main() async {
