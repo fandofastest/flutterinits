@@ -1,0 +1,87 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:916659392605459963",
+      "lastPropertyId": "12:851798700339414108",
+      "name": "VideoModel",
+      "properties": [
+        {
+          "id": "1:1571568648351545907",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:38375422065871864",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:4117784239704214289",
+          "name": "channelId",
+          "type": 9
+        },
+        {
+          "id": "4:2627759360692512983",
+          "name": "channelTitle",
+          "type": 9
+        },
+        {
+          "id": "5:901592396182023474",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "6:175879500542409094",
+          "name": "videoId",
+          "type": 9
+        },
+        {
+          "id": "7:6435427994168745017",
+          "name": "publishedAt",
+          "type": 9
+        },
+        {
+          "id": "8:1996565135190512272",
+          "name": "viewCount",
+          "type": 9
+        },
+        {
+          "id": "9:1802107043201609030",
+          "name": "duration",
+          "type": 6
+        },
+        {
+          "id": "10:4907802027937196967",
+          "name": "recentPlayed",
+          "type": 10
+        },
+        {
+          "id": "11:200262698236146816",
+          "name": "recentliked",
+          "type": 10
+        },
+        {
+          "id": "12:851798700339414108",
+          "name": "isfav",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:916659392605459963",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
